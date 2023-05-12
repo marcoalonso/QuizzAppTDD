@@ -2,7 +2,7 @@
 //  QuizAppApp.swift
 //  QuizApp
 //
-//  Created by Mohammad Azam on 10/21/21.
+//  Created by Marco Alonso Rodriguez on 12/05/23.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct QuizAppApp: App {
     var body: some Scene {
         WindowGroup {
-            QuizListScreen() 
+            QuizListScreen()
         }
     }
 }

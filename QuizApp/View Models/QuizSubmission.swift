@@ -2,7 +2,7 @@
 //  QuizSubmission.swift
 //  QuizApp
 //
-//  Created by Mohammad Azam on 10/22/21.
+//  Created by Marco Alonso Rodriguez on 12/05/23.
 //
 
 import Foundation
@@ -11,7 +11,6 @@ struct QuizSubmission {
     
     let quizId: Int
     private (set) var selectedChoices: [Int: Int] = [:]
-    var grade: Grade?
     
     init(quizId: Int) {
         self.quizId = quizId

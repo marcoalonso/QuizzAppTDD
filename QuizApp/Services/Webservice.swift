@@ -2,7 +2,7 @@
 //  Webservice.swift
 //  QuizApp
 //
-//  Created by Mohammad Azam on 10/21/21.
+//  Created by Marco Alonso Rodriguez on 12/05/23.
 //
 
 import Foundation
@@ -10,9 +10,10 @@ import Foundation
 enum NetworkError: Error {
     case badRequest
     case decodingError
+    case badURL 
 }
 
-class Webservice {
+class Webservice: NetworkService {
     
     func getAllQuizes(url: URL, completion: @escaping (Result<[QuizDTO], NetworkError>) -> Void) {
         
